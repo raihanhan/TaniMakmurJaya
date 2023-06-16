@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import "bootstrap";
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("dsa.jpg") no-repeat;
+  background: url("/src/public/hero.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -28,14 +28,16 @@ header {
 }
 .Logo {
   font-size: 2em;
-  color: #fff;
+  color: #073911;
   user-select: none;
 }
-
+.app-bar{
+position: absolute;
+}
 .navigation a {
   position: relative;
   font-size: 1.1em;
-  color: #fff;
+  color: #0d4628;
   text-decoration: none;
   font-weight: 500;
   margin-left: 40px;
@@ -238,4 +240,23 @@ header {
 }
 .login-register p a:hover {
   text-decoration: underline;
+}
+.card {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  background-color: #fff;
+  margin-top: 15%;
+  width: auto;
+}
+
+.card-img-top {
+  height: 300px;
+  width: fit-content;
+  object-fit: cover;
+  object-position: center;
+}
+.card-img-top1 {
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
 }

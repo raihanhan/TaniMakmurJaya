@@ -1,0 +1,54 @@
+{
+    "id": "farm",
+    "start_url": "./index.html",
+    "name": "TaniMakmurJaya",
+    "short_name": "Pertanian",
+    "description": "Harvest have fun",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#D84315",
+    "icons": [
+      {
+        "src": "/icons/greenhouse1.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/greenhouse2.png",
+        "sizes": "24x24",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/greenhouse3.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/greenhouse4.png",
+        "sizes": "64x64",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/greenhouse5.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/greenhouse6.png",
+        "sizes": "256x256",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/greenhouse7.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ]
+  }
